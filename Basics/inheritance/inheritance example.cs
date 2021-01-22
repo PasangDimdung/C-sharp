@@ -1,5 +1,4 @@
-﻿using System.Reflection.Emit;
-using System;
+﻿using System;
 
 public class ParentClass
 {
@@ -9,7 +8,7 @@ public class ParentClass
     }
 
     //Overloading constructor
-       public ParentClass(string Message)
+    public ParentClass(string Message)
     {
         Console.WriteLine(Message);
     }
@@ -18,7 +17,7 @@ public class ParentClass
 public class ChildClass : ParentClass
 {
     //We use base() to call the constructor we want
-    public ChildClass(): base("Hello, I am controlling base class constructor")
+    public ChildClass() : base("Hello, I am controlling base class constructor")
     {
         Console.WriteLine("Child class constructor called");
     }
