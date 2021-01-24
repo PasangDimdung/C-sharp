@@ -1,6 +1,6 @@
 ﻿using System;
 
-/* Delegate is type safe function pointer. Signature of delegate must match signature of function. 
+/* Delegate is type safe function pointer. Signature of delegate must match signature of function it is pointing
 Here both have return type void and pass string as parameter */
 public delegate void HelloFunctionDelegate(string Message);
 class Program
